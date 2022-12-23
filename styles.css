@@ -1,0 +1,22 @@
+
+body{
+    margin: 0;
+}
+
+header{
+    color: rgb(255, 0, 0);
+    padding: 1px;
+    /*Posizionamento titolo NETGRONG sulla sinistra, creando due colonne a divisione dello schermo*/
+}
+
+.sotto{
+    background-color: #46474b;
+    padding: 500px;
+}
+
+.topnav {
+    overflow: hidden;
+    height: 50px;
+    background-color: #202124; /*Colore nero alla navbar*/
+  }
+
