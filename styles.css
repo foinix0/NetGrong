@@ -27,20 +27,19 @@ body{
     height: 95%;
 }
 
-
-@media only screen and (max-width: 450px){
+@media only screen and (min-width: 400px){
     .sotto{
-        background-color: aquamarine;
+        background-color: aqua;
     }
 }
 
-@media only screen and (max-width: 1920px){
+@media only screen and (min-width: 1920px){
     .sotto{
         background-color: crimson;
     }
 }
 
-@media only screen and (max-width: 2560px){
+@media only screen and (min-width: 2560px){
     .sotto{
         background-color: purple;
     }
