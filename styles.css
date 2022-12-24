@@ -1,22 +1,50 @@
 
 body{
     margin: 0;
+    padding: 0;
 }
 
-header{
-    color: rgb(255, 0, 0);
-    padding: 1px;
-    /*Posizionamento titolo NETGRONG sulla sinistra, creando due colonne a divisione dello schermo*/
-}
 
-.sotto{
-    background-color: #46474b;
-    padding: 500px;
-}
+
 
 .topnav {
-    overflow: hidden;
-    height: 50px;
+    overflow: none;
     background-color: #202124; /*Colore nero alla navbar*/
-  }
+    height: 5%;
+    min-width: 100%;
+}
+
+.logonetgrongsx{
+    height: 75%;
+    width: 10%;
+}
+
+
+.sotto{
+    overflow: none;
+    background-color: #46474b;
+    width: 100%;
+    height: 95%;
+}
+
+
+@media only screen and (max-width: 450px){
+    .sotto{
+        background-color: aquamarine;
+    }
+}
+
+@media only screen and (max-width: 1920px){
+    .sotto{
+        background-color: crimson;
+    }
+}
+
+@media only screen and (max-width: 2560px){
+    .sotto{
+        background-color: purple;
+    }
+}
+
+
 
