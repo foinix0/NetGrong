@@ -26,21 +26,106 @@ body{
     height: 95%;
 }
 
-@media only screen and (min-width: 400px){
+@media only screen and (max-width: 450px){
     .sotto{
         background-color: aqua;
     }
+
+    .avviso{
+        display: none;
+    }
+
+    .logonetgrongsx{
+        width: 100px;
+        padding: 6px;
+    }
+
+    
+    .slider{
+        overflow: hidden;
+    }
+
+    .figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 20s slider infinite
+    }
+
+    .img{
+        float: left;
+        width: 20%;
+        height: 40%;
+        object-fit: contain;
+    }
+    
+    @keyframes slider {
+        0%{
+            left: 0;
+        }
+        20%{
+            left: 0;
+        }
+        25%{
+            left: -100%;
+        }
+        45%{
+            left: -100%;
+        }
+        50%{
+            left: -200%;
+        }
+        70%{
+            left: -200%;
+        }
+        75%{
+            left: -300%;
+        }
+        95%{
+            left: -300%;
+        }
+
+
+
+    }
+
+    
+   
+
+
+
+
+
 }
 
-@media only screen and (min-width: 1920px){
+@media only screen and (min-width: 460px){
     .sotto{
         background-color: crimson;
+        height: 100%;
     }
-}
 
-@media only screen and (min-width: 2560px){
-    .sotto{
-        background-color: purple;
+    .topnav{
+        display: none;
     }
-}
 
+    .avviso{
+        display: block;
+        font-size: 100px;
+        color: aliceblue;
+        text-align: center;
+        padding-top: 400px;
+    }
+
+    .nuoveuscite{
+        display: none;
+    }
+
+
+    .slider{
+        display: none;
+    }
+
+    
+
+}
