@@ -188,6 +188,20 @@ body{
         overflow: hidden;
         position: relative;
     }
+
+    .shortfilmtit{
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        width: 110%;
+        font-style: italic;
+        margin: 5px;
+        font-size: large;
+        font-stretch: expanded;
+        position: relative;
+        text-shadow: 2px 2px 4px #ca1010; 
+    }
   
 
 
