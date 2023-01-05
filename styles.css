@@ -156,7 +156,7 @@ body{
         font-size: large;
         font-stretch: expanded;
         position: relative;
-        text-shadow: 2px 2px 4px #ca1010;
+        text-shadow: 2px 2px 4px #10ca4e;
     }
 
     .marvel{
@@ -178,7 +178,7 @@ body{
         font-size: large;
         font-stretch: expanded;
         position: relative;
-        text-shadow: 2px 2px 4px #ca1010; 
+        text-shadow: 2px 2px 4px #beca10; 
     }
 
     .shortfilm{
@@ -200,7 +200,29 @@ body{
         font-size: large;
         font-stretch: expanded;
         position: relative;
-        text-shadow: 2px 2px 4px #ca1010; 
+        text-shadow: 2px 2px 4px #1310ca; 
+    }
+
+    .goliardieseriali{
+        width: 105%;
+        height: 15%;
+        left: -9%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .goliardieserialitit{
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        width: 110%;
+        font-style: italic;
+        margin: 5px;
+        font-size: large;
+        font-stretch: expanded;
+        position: relative;
+        text-shadow: 2px 2px 4px #ca8910; 
     }
   
 
