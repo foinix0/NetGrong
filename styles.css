@@ -4,7 +4,9 @@ body{
     background-color: #141313;
 }
 
-
+.box::-webkit-scrollbar{
+    display: none;
+}
 
 
 .topnav {
@@ -101,41 +103,37 @@ body{
         font-size: xx-large;
         font-stretch: expanded;
         position: absolute;
+        text-shadow: 2px 2px 4px #ca1010;
+        
         
     }
 
     .cim{
         width: 105%;
-        height: 50%;
-        left: -10%;
-        padding: 1%;
-        color: aqua;
+        height: 15%;
+        left: -9%;
+        overflow: hidden;
         position: relative;
     }
 
-
-   
-   
-   
     .box{
-        margin: 0;
-        height: 40%;
-        width: auto;
-        overflow: scroll;
+        position: absolute;
+        height: 100%;
+        overflow-x: scroll;
         white-space: nowrap;
         display: inline-block;
         text-align: center;
-        padding-bottom: 10px !important;
+        box-sizing: content-box;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .box img{
         position: relative;
-        min-width: 20%;
+        min-width: 25%;
         width: 40%;
-        right: -10%;
-        background-size: cover;
+        height: 80%;
+        right: -12%;
         margin: 5px 10px;
         cursor: pointer;
         transition: 0.5s ease;
@@ -143,11 +141,61 @@ body{
     }
 
     .box img:hover{
-        transform: scale(1.4);
+        transform: scale(1.2);
         z-index: 5;
     }
 
+    .cimtit{
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        width: 110%;
+        font-style: italic;
+        margin: 5px;
+        font-size: large;
+        font-stretch: expanded;
+        position: relative;
+        text-shadow: 2px 2px 4px #ca1010;
+    }
 
+    .marvel{
+        width: 105%;
+        height: 15%;
+        left: -9%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .marveltit{
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        width: 110%;
+        font-style: italic;
+        margin: 5px;
+        font-size: large;
+        font-stretch: expanded;
+        position: relative;
+        text-shadow: 2px 2px 4px #ca1010; 
+    }
+
+    .shortfilm{
+        width: 105%;
+        height: 15%;
+        left: -9%;
+        overflow: hidden;
+        position: relative;
+    }
+  
+
+
+
+
+
+    
+    
 
 
 
