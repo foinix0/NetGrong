@@ -113,6 +113,13 @@ body{
         
     }
 
+    .footer{
+        padding-top: 15px;
+        color: #46474b;
+        text-align: center;
+        width: 100%;
+    }
+
     .cim{
         width: 105%;
         height: 15%;
@@ -301,6 +308,61 @@ body{
         box-shadow: 0px 15px 20px rgba(211, 34, 34, 0.4);
         z-index: 5;
     }
+
+
+    .info1{
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        font-style: italic;
+        font-size: xx-large;
+        text-shadow: 2px 2px 4px #1310ca; 
+    }
+
+    .info2{
+        top: 15%;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        font-style: italic;
+        font-size: large;
+        text-shadow: 2px 2px 4px #ca1048; 
+    }
+
+    .info3{
+        top: 30%;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        font-style: italic;
+        font-size: large;
+        text-shadow: 2px 2px 4px #ca1048; 
+    }
+
+    .info4{
+        top: 40%;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        font-style: italic;
+        font-size: large;
+        text-shadow: 2px 2px 4px #73ca10; 
+    }
+
+
+
 
 
     
