@@ -8,6 +8,11 @@ body{
     display: none;
 }
 
+.box2::-webkit-scrollbar{
+    display: none;
+}
+
+
 
 .topnav {
     overflow: none;
@@ -237,16 +242,66 @@ body{
         bottom: 40%;
         border-radius: 8px;
         text-align: center;
-        
     }
-
 
     .navbtn:hover {
         background-color: #a71c1c;
         box-shadow: 0px 15px 20px rgba(211, 34, 34, 0.4);
         color: #fff;
         transform: translateY(-4px);
-      }
+    }
+
+    .auguri{
+        width: 100%;
+        height: 30%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .auguritit{
+        position: absolute;
+        text-align: center;
+        color: white;
+        top: 3%;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        font-style: italic;
+        text-shadow: 2px 2px 4px #ca10b1; 
+        font-size: xx-large;
+     
+    }
+
+    .box2{
+        position: absolute;
+        height: 100%;
+        overflow-x: scroll;
+        white-space: nowrap;
+        display: inline-block;
+        text-align: center;
+        box-sizing: content-box;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .box2 img{
+        position: relative;
+        min-width: 25%;
+        width: 40%;
+        height: 40%;
+        margin: 5px 10px;
+        cursor: pointer;
+        transition: 0.5s ease;
+        z-index: 2;
+        top: 35%;
+    }
+
+    .box2 img:hover{
+        transform: scale(1.2);
+        box-shadow: 0px 15px 20px rgba(211, 34, 34, 0.4);
+        z-index: 5;
+    }
+
 
     
     
