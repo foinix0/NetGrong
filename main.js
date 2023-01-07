@@ -1,3 +1,27 @@
-//TODO: Fare in modo che non rimangano instanziate le pagine
-//TODO: Inserire logica funzionamento video e backend
-//TODO: Ridimensionare index per farsi che non compaia la scrollbar
+
+var id;
+function reply_click(clicked_id)
+{
+    id = clicked_id;
+}
+
+document.addEventListener('click', function (event) {
+
+    window.location.href = "video.html";
+
+
+
+    switch (id){
+        case "augurimonochino":
+
+            
+            break;
+
+    
+    }
+
+
+}, false);
+
+
+
