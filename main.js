@@ -1,4 +1,7 @@
 
+
+
+
 var id;
 function reply_click(clicked_id)
 {
@@ -14,7 +17,7 @@ document.addEventListener('click', function (event) {
     switch (id){
         case "augurimonochino":
 
-            
+
             break;
 
     

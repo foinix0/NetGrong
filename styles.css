@@ -396,7 +396,7 @@ body{
 
 }
 
-@media only screen and (min-width: 460px){
+@media only screen and (min-width: 1000px){
     .sotto{
         background-color: crimson;
         height: 100%;
@@ -443,3 +443,8 @@ body{
     
 
 }
+
+
+
+
+
