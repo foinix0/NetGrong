@@ -1,31 +1,3 @@
-
-
-const sliders = document.querySelector(".box")
-var scrcl;
-var scr = 0;
-function sxscroll(){
-    sliders.scrollTo({
-        top: 0,
-        left: (scr -= scrcl),
-        behavior: "smooth"
-    });
-
-    if(scr < 0){
-        scr = 0;
-    }
-
-}
-
-function dxscroll(){
-    if(scr <= sliders.scrollWidth - sliders.clientWidth){
-        sliders.scrollTo({
-            top: 0,
-            left: (scr += scrcl),
-            behavior: "smooth"
-        })
-    }
-
-}
-
-
- 
+//TODO: Fare in modo che non rimangano instanziate le pagine
+//TODO: Inserire logica funzionamento video e backend
+//TODO: Ridimensionare index per farsi che non compaia la scrollbar
