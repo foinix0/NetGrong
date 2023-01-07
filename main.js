@@ -8,7 +8,7 @@ function Video(id){
     var emb = document.getElementById("trailer");
     var clone = emb.cloneNode(true);
     clone.setAttribute('src', "https://drive.google.com/file/d/" + id +"/preview");
-    game.parentNode.replaceChild(clone, emb)
+    emb.parentNode.replaceChild(clone, emb)
 }
 
 
