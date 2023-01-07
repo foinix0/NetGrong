@@ -374,6 +374,9 @@ body{
         height: 99%;
     }
 
+    .avviso2{
+        display: none;
+    }
 
 
 
@@ -396,7 +399,64 @@ body{
 
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 451px) and (max-width: 1000px){
+    .sotto{
+        background-color: #46474b;
+        height: 100%;
+    }
+
+    .topnav{
+        display: none;
+    }
+
+    .cim{
+        display: none;
+    }
+
+    .marvel{
+        display: none;
+    }
+
+    .shortfilm{
+        display: none;
+    }
+
+    .goliardieseriali{
+        display: none;
+    }
+
+
+    .avviso2{
+        
+        font-size: 30px;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .avviso{
+        display: none;
+    }
+
+    .nuoveuscitetesto{
+        display: none;
+    }
+
+
+    .slider{
+        display: none;
+    }
+
+    .auguri{
+        display: none;
+    }
+    
+    .footer{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1001px){
     .sotto{
         background-color: crimson;
         height: 100%;
@@ -422,6 +482,9 @@ body{
         display: none;
     }
 
+    .avviso2{
+        display: none;
+    }
 
     .avviso{
         display: block;
@@ -440,9 +503,18 @@ body{
         display: none;
     }
 
+    .auguri{
+        display: none;
+    }
     
+    .footer{
+        display: none;
+    }
 
 }
+
+
+
 
 
 
