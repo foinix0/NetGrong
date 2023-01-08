@@ -410,36 +410,6 @@ body{
     }
 
 
-    .box3{
-        position: absolute;
-        height: 100%;
-        overflow-x: scroll;
-        white-space: nowrap;
-        display: inline-block;
-        text-align: center;
-        box-sizing: content-box;
-        display: flex;
-        
-    }
-
-    .box3 img{
-        position: relative;
-        min-width: 25%;
-        width: 40%;
-        height: 40%;
-        margin: 5px 10px;
-        cursor: pointer;
-        transition: 0.5s ease;
-        z-index: 2;
-        top: 35%;
-    }
-
-    .box3 img:hover{
-        transform: scale(1.2);
-        box-shadow: 0px 15px 20px rgba(211, 34, 34, 0.4);
-        z-index: 5;
-    }
-
    
 
 
@@ -508,6 +478,11 @@ body{
     .footer{
         display: none;
     }
+
+    .shortlord{
+        display: none;
+    }
+    
 
    
 
