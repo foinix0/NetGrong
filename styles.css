@@ -12,9 +12,6 @@ body{
     display: none;
 }
 
-.box3::-webkit-scrollbar{
-    display: none;
-}
 
 
 
@@ -546,6 +543,8 @@ body{
     .footer{
         display: none;
     }
+
+
 
 }
 
