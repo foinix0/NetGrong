@@ -4,7 +4,7 @@
 id = localStorage.getItem("id");
 div = document.getElementById("videoview");
 videostring1 = '<iframe style="transform:rotate(90deg); position:fixed; top:25%; left:-60%; bottom:0; right:0; width:220%; height:50%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;" src="https://drive.google.com/file/d/'; 
-videostring2 = '/preview" frameborder="0"></iframe>';
+videostring2 = '/preview" bordercolor="#000000" frameborder="0"></iframe>';
 
 
 switch(id){
