@@ -193,6 +193,10 @@ switch(id){
         idvideo = "1LUsfK6tVbdGDpMvFopLSj2cyZiLGjUOR";
         div.innerHTML = videostring1 + idvideo + videostring2;
         break;
+    case "short15":
+        idvideo = "1aDlrClikrx1hAyYF9u9XPgZdj39bLTNf";
+        div.innerHTML = videostring1 + idvideo + videostring2;
+        break;
     //Trailer goliardie seriali
     case "seriali1":
         idvideo = "1VVNhg_JUPXEfgHSQOdhkhMkaOpRaURmR";
