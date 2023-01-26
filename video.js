@@ -25,7 +25,11 @@ switch(id){
     case "auguricardolazzo":
         idvideo = "1ye3FEyAcERt0LmMUTll10axZwX1IHrh9";
         div.innerHTML = videostring1 + idvideo + videostring2;
-        break;  
+        break;
+    case "auguriloddo":
+        idvideo = "1R9V8MauqTiPMa5a8c0AiZV1doTKGUBWu";
+        div.innerHTML = videostring1 + idvideo + videostring2;
+        break;      
     //Trailer Cimitero Maledetto
     case "cim1":
         idvideo = "19FkI-hRxmJyJespuS0ZNbNHIOeqMoqXc";
